@@ -19,7 +19,6 @@ public class advent02 {
         
         Path path = FileSystems.getDefault().getPath("advent02.txt");
         List<String> lines = Files.readAllLines(path, Charset.defaultCharset());
-        // int result = 0;
         System.out.println("_________");
         int gameID = 1;
         int result = 0;
