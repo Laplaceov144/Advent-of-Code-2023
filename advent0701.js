@@ -140,7 +140,7 @@ console.log(data);
 let i = 1;
 for(hand of data) {
     hand.rank = i;
-    i++
+    i++;
 }
 const result = data.map(item => {
     return item.rank * item.bid;
