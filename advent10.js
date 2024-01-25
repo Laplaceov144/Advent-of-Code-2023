@@ -36,32 +36,11 @@ try {
     row++;
     }
 
+    // The result
     console.log(steps / 2);
 
 } catch (err) {
   console.error(err);
 }
-
-
-// function importText(textFile) {
-//     "use strict";
-//     var rawFile = new XMLHttpRequest();
-//     var allText = "";
-//     rawFile.open("Get", textFile, false);
-//     rawFile.onreadystatechange = function()
-//     {
-//         if(rawFile.readyState === 4)
-//         {
-//             if(rawFile.status === 200 || rawFile.status == 0)
-//             {
-//                 allText = rawFile.responseText;
-//             }
-//         }
-//     }
-//     rawFile.send(null);
-//     return allText;
-// }
-//const text = importText("./advent10.txt");
-
 
 
