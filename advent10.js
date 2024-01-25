@@ -26,8 +26,6 @@ try {
                     case 'J': case 'F':
                         direction = [(-1) * direction[1], (-1) * direction[0]];
                         break;
-                    // default:
-                    //     console.log("We somehow got here. What now?");
                 }
                 row += direction[0];
                 column += direction[1];
